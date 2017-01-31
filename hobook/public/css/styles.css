@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,300i,400,400i,500,500i,700,700i');
+html body{
+    font-family: 'Fira Sans', sans-serif; font-family: 'Overpass', sans-serif;
+    background-color: #BBDEFB;
+}
+#dernierMain{
+  margin-bottom: 200px;
+}
+#logo{
+      font-weight: 400;
+      font-size: 20px;
+      color:white;
+      margin-right: 50px;
+      margin-left: 50px;
+      padding-top: 20px;
+}
+
+.dropdown{
+  margin-right: 50px;
+
+}
+
+.haut{
+  padding-top: 150px;
+}
+
+/*   FOOTER  */
+.bg-lightgray
+{
+    background-color: #1565C0;
+    color: white;
+}
+
+.inscription{
+  color:white;
+  font-size: 24px;
+}
+.marges{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/*   MENU     */
+#navMenu{
+  background-color: #1565C0;
+  /*padding-top: 15px;
+  padding-bottom: 15px;*/
+}
+#navMenu li a{
+font-size: 16px;
+margin-right: 30px;
+}
+#navSousMenu {
+  font-size: 16px;
+  margin-right: 20px;}
+}
+#navSousMenu li a{
+  margin-right: 20px;
+  font-size: 16px;
+}
+#navSousMenu a:hover{
+}
+.navbar-nav{color:white;}
+.navbar-nav, .dropdown, .dropdown-menu li a{
+font-size: 50px;
+}
+
+/*     SLIDE       */
+.carousel-caption h1{
+  margin-bottom: 70px;
+  font-weight: 400;
+  font-size: 40px;
+  color:white;
+}
+/* SOUS FOOTER */
+#accueil{
+  padding-top: 150px;
+}
+
+/*  MAIN HOTEL   */
+#dernierHotel{
+margin-top: 30px;
+}
+
+#dernierHotel h1{
+  margin-top: 0px;
+  font-size: 24px;
+  font-weight: 300px;
+}
+#hotelListe {
+padding:7px;
+margin-bottom: 10px;
+}
+#hotelListe ul{
+margin: 0px;
+padding: 0px;
+}
+#hotelListe ul li{
+list-style: none;
+text-decoration:none;
+}
+#hotelListe li img{
+width: 100%;
+height: 400px;
+}
+#hotelListe span {
+  color:black;
+}
+#hotelListe h3 {
+  color:black;
+}
+/*  LES COMMENTAIRES  */
+#dernierCommentaire{
+margin-top: 30px;
+padding-bottom: 0px;
+}
+#dernierCommentaire h1{
+  font-size: 24px;
+  font-weight: 150px;
+  margin-top: 5px;
+}
+#commentaireListe {
+padding:10px;
+margin: 0px;
+border: 1px solid;
+}
+/**************BTN MENU***************************************/
+#btnMenu{
+padding-top: 5px;
+}
+
+/***************************/
+.list-group{margin: 0px;padding: 0px;}
+.list-group-item span{
+  width: 50px;
+  height: 50px;
+  /*border-radius: 50px;*/
+  color:white;
+  padding: 5px;
+  font-size: 28px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: black;
+  float: left;
+  margin-right: 20px;
+}
+.list-group-item h4{
+  margin: 0px;padding: 0px;
+}
+.list-group-item h5{
+  margin: 0px;padding: 0px;
+}
+
+/*.dropdown a{color: #dec048;}*/
+
+/***********HOTEL 1 corententia***************************************/
+
+#visuelHotel{
+background-image: url("../img/hotel/corinthiahotelbudapest/1.jpg");
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+background-color: black;
+height: 550px;
+}
+
+/*************CORIANTHIA***********************************************************/
+#corianthia h2{
+  font-size: 36px;
+  /*color: #dec048;*/
+}
+#corianthia h2 small{
+  font-size: 16px;
+}
+#chambre{
+  padding:10px;}
+
+#photoRoom{
+  margin: 0px;
+  padding: 0px;
+}
+#ch1{
+  margin-bottom: 10px;
+  height: 500px;
+  background-image: url("../img/room/corinthiahotelbudapest/1.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+#ch1 h1{
+    margin-top: 0px;
+    display: block;
+    position: relative;
+    float: left;
+    background-color: black;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+#ch2{
+  height: 500px;
+  background-image: url("../img/room/corinthiahotelbudapest/2.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+#rooms{
+    margin-top: 20px;
+    padding: 0px;
+}
+#rooms span{
+  padding-top: 0px;
+  margin-right: 20px;
+font-size: 24px;
+    float: left;
+    font-size: 26px;
+}
+#rooms h1{
+  font-weight: 300;
+  margin-top: 0px;
+  padding-top: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+#rooms p{
+  font-weight: 300;
+font-size: 18px;
+}
+
+/* HEADER  ----  SE CONNECTER*/
+
+.dist{
+  padding-top: 145px;
+  padding-bottom: 145px;
+}
+/* COULEUR DROPDOWN*/
+.changeBtn{
+  background-color: red;
+  padding-top: 10px;
+}
+
+/*  HEADER   ----  SENREGISTRER*/
+.ecart{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
